@@ -1,0 +1,158 @@
+
+@font-face {
+    font-family: "Traveling_Typewriter";
+    src:url(fonts/TravelingTypewriter.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    src:url(fonts/roboto/Roboto-Light.ttf);
+}
+
+h1 {
+	width: 50%;
+	height: 100px;
+	min-width: 300px;
+    font-family: "Traveling_Typewriter";
+}
+
+h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header {
+    background-image: url('img/background.jpg');
+    min-height: 30%;
+    background-size: cover;
+    background-position: top;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+header p {
+    margin-top: 0%;
+}
+
+#globe-img {
+    width: 80px;
+}
+
+nav{
+    /* background-color: #ffffff; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section {
+    display: flex;
+	flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+	flex-shrink: 0;
+}
+
+article  {
+    flex: 1;
+    min-width: 300px;
+    text-align: justify;
+}
+
+article img {
+    width: 100%;
+}
+
+aside  {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fiche {
+    background-color: #d8d8d8;
+    margin: 20px;
+    text-align: center;
+}
+footer {
+    background-color: #e6e6e6;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size : 12px;
+}
+
+body {
+    height: 100vh;
+    margin: 0%;
+    font-family: "Roboto-Light";
+}
+
+.nav-item {
+    height: 75px;
+    min-width: 100px;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	background-color: #e6e6e6;
+
+}
+
+#current-nav-item {
+    background-color: rgba(255, 153, 165, 0.521);
+    
+}
+
+#current-nav-item:hover {
+    background-color:#ff99a8;
+}
+
+.nav-item a, .nav-item a:visited {
+    color: black;
+	font-weight: bold;
+    text-decoration: none;
+	font-family: "Traveling_Typewriter";
+}
+
+.nav-item:hover {
+    background-color: #cccccc;
+}
+
+.social a img {
+    width: 40px;
+}
+
+prez{
+	flex: 1;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+prez_pict{
+	flex: 1;
+	padding: 20px;
+	min-width: 250px;
+	max-width: 400px;
+}
+
+prez_pict img{
+	/* width: 700px; */
+	max-width: 100%;
+}
+
+prez_text{
+	flex: 1;
+	padding: 10px;
+	min-width: 250px;
+	text-align: justify;
+	max-width: 700px;
+}
